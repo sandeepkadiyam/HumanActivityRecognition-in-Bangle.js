@@ -10,5 +10,30 @@ The main challenge is to successfully deploy the deep learning model on to Bangl
 
 ## Methodology
 
-# Accelerometer data
+### Accelerometer data
+Now a days, every mobile device have accelerometer embedded in it. The accelerometer determines the orientation and the movement of the wearer's arm. The data aquisition is majorly effected by two factors, sampling and sensitivity.
+Sampling is how often does the accelerometer gathers data and sensitivity is how effectively does the watch recognizes the tiniest vibration that goes through the wearer's arm.
+Bangle.js operating system limits the sampling of the accelerometer to a maximum of 100 hz. We can choose between four different sampling rates for the watch to work on. This can be chosen by setting appropriate bits in the accelerometer write register.
+The maximum sensitivity that can be achieved by Bangle.js is +-8g. We can chose between three different sensitivity rates for the atch to work on. All the data recorded using the watch for this project is recorded with 50 hz sampling rate and +-8g sensitivity.
+* organizing the data
+* window sampling method.
+* startified splitting.
 
+
+### Deep Learning model
+* CNN
+* why light weight model?
+* How CNN works?
+* Explain the model used briefly?
+* what loss function and optimizer are used in the model?
+* 
+### Deployment
+* Tf lite for microcontrollers.
+* quantization?
+* conversion?
+* 
+### Inference
+* How to access model?
+* How to set input
+* how to infer
+* how to match the output to class names?
