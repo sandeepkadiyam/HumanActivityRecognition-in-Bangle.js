@@ -8,4 +8,4 @@ The project is structured in five steps. The first step of the project is to acq
 
 ## Scripts and files:
 1) A step-by-step process of model developmet and model deployment was implemented in this python notebook.
-2) The script to perfrom inference on bangle.js can be found [here](prediction.js).
+2) The script to perfrom inference on bangle.js can be found [here](Utils/prediction.js).
