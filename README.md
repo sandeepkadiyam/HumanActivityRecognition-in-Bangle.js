@@ -7,5 +7,5 @@ Recent studies in Human Activity Recognition(HAR) have shown that  HAR on edge d
 The project is structured in five steps. The first step of the project is to acquire and pre-process the accelerometer data. The next step is to develop and train a Convolutional Neural Network. Then, the third step is to optimize and deploy the model on bangle.js. After deployment, inference will be performed in real-time using the deployed model.
 
 ## Scripts and files:
-1) A step-by-step process of model development and model deployment was implemented in [this](HumanActivityRecognition.ipnyb) python notebook.
+1) A step-by-step process of model development and model deployment was implemented in [this](HumanActivityRecognition.ipynb) python notebook.
 2) The script to perfrom inference on bangle.js can be found [here](Utils/prediction.js).
