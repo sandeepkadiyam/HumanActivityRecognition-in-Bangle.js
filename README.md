@@ -14,7 +14,14 @@ The project is structured in five steps. The first step of the project is to acq
 [Optimization.py](Utils/Optimization.py) : The script to convert the keras model to the TensorFlow Lite model.
 
 ## Results
-The model's performance was evaluated before and after optimization using a custom dataset and a public HAPT dataset from the UCI machine learning repository. All the results were obtained using the k-fold cross-validation method.  
+
+**Size Evaluation:** We have compressed the model using the TensorFlow lite's post quantization method and evaluated the model's size before and after the optimization.
+
+<p align="center">
+  <img src = "images/size.png" width = "700" height = "180"/>
+</p>
+
+**Peformance Evaluation:** The model's performance was evaluated before and after optimization using a custom dataset and a public HAPT dataset from the UCI machine learning repository. All the results were obtained using the k-fold cross-validation method.  
 
 **Model's Performance on the custom dataset:** The custom dataset was collected from three subjects performing four activities, running, walking, sitting, and laying, wearing a bangle.js on the left-hand wrist. The data was sampled at 50Hz with a sensitivity of +/-8g.
 
