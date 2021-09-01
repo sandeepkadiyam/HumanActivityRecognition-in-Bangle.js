@@ -31,7 +31,7 @@ The project is structured in five steps. The first step of the project is to acq
   <img src = "images/CustomDataset_allclasses.png" width = "800" height = "350"/>
 </p>
 
-**Model's Performance on HAPT Dataset:** The Human activity and Postural Transitions dataset is from the UCI Machine Learning Repository. It was collected from 30 subjects performing basic activities and postural transitions with a smartphone mounted on the waist. The dataset includes 6 basic activities, laying, sitting, standing, walking, walking-downstairs, walking-upstairs, and 6 postural transitions, lie-to-sit, lie-to-stand, sit-to-lie, sit-to-stand,stand-to-lie, stand-to-sit sampled at 50Hz.
+**Model's Performance on HAPT Dataset:** The Human activity and Postural Transitions dataset is from the UCI Machine Learning Repository[[1]](#1). It was collected from 30 subjects performing basic activities and postural transitions with a smartphone mounted on the waist. The dataset includes 6 basic activities, laying, sitting, standing, walking, walking-downstairs, walking-upstairs, and 6 postural transitions, lie-to-sit, lie-to-stand, sit-to-lie, sit-to-stand,stand-to-lie, stand-to-sit sampled at 50Hz.
 
 <p align="center">
   <img src = "images/HAPTDataset_eachclass.png" width = "900" height = "500"/>
@@ -40,3 +40,10 @@ The project is structured in five steps. The first step of the project is to acq
 <p align="center">
   <img src = "images/HAPTDataset_allclasses.png" width = "750" height = "350"/>
 </p>
+
+## References
+<a id="1">[1]</a> 
+Dua, Dheeru and Graff, Casey, (2017), 
+UCI Machine Learning Repository,
+url = "http://archive.ics.uci.edu/ml",
+University of California, Irvine, School of Information and Computer Sciences.
