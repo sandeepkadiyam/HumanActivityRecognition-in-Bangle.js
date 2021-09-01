@@ -17,6 +17,6 @@ The project is structured in five steps. The first step of the project is to acq
 The model's performance was evaluated before and after optimization using a custom dataset and a public HAPT dataset from the UCI machine learning repository. All the results were obtained using the k-fold cross-validation method.  
 
 **Model's Performance on the custom dataset:** The custom dataset was collected from three subjects performing four activities, running, walking, sitting, and laying, wearing a bangle.js on the left-hand wrist. The data was sampled at 50Hz with a sensitivity of +/-8g.
-
+<img src = "images/CustomDataset_eachclass.png" width = "850" height = "400"/>
 
 We developed and deployed a deep learning model for Human activity recognition on bangle.js. For the model development and model deployment on bangle.js, a detailed python jupyter notebook was created and can be found [here](HumanActivityRecognition.ipynb). We used the deployed model to perform on-device inference, and the script to perform inference on bangle.js can be found [here](prediction.js).
