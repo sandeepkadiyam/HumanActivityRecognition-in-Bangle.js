@@ -1,3 +1,7 @@
+// After deploying the model, to perform on-device inference, copy the below code and paste it in the right hand side pane of the 
+// espruino web based ide and then, upload the code to bangle.js by pressing the deploy button. Now, using the REPL window of the 
+// ide start the "accel" event listener and pass recStart function as an argument. This can be done using the command, Bangle.on("accel", recStart);
+
 // Requiring necessary modules.
 var storage = require("Storage");
 var tf = require("tensorflow");
