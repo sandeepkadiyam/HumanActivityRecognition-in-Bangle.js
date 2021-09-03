@@ -1,6 +1,8 @@
-// After deploying the model, to perform on-device inference, copy the below code and paste it in the right hand side pane of the 
-// espruino web based ide and then, upload the code to bangle.js by pressing the deploy button. Now, using the REPL window of the 
-// ide start the "accel" event listener and pass recStart function as an argument. This can be done using the command, Bangle.on("accel", recStart);
+// After deploying the model, A few steps are required to perform on-device inference.
+// 1.) Copy the below code and paste it on the right hand side pane of the Espruino web-based IDE.
+// 2.) Upload the code to bangle.js by pressing the deploy button. 
+// 3.) Now, use the REPL window of the ide to start the "accel" event listener and pass recStart function as an argument to start the prediction process. 
+//     To start the event listener, use the command, Bangle.on("accel", recStart);
 
 // Requiring necessary modules.
 var storage = require("Storage");
