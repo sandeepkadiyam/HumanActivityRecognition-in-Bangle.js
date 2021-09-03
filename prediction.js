@@ -52,9 +52,9 @@ function recStart() {
 
 function recStop() {
   Bangle.setPollInterval(80); // default poll interval
-  Bangle.accelWr(0x18,0b01101100); // off, +-4g
+  Bangle.accelWr(0x18,0b01101100); // stand-by mode, +-4g.
   Bangle.accelWr(0x1B,0x0); // default 12.5hz output
-  Bangle.accelWr(0x18,0b11101100); // +-4g
+  Bangle.accelWr(0x18,0b11101100); // operating mode, +-4g.
 }
 
 function prediction() {
